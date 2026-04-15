@@ -1,0 +1,10 @@
+length = float(input("Enter the length: "))
+width = float(input("Enter the width: "))
+area = round(length * width, 1)
+perimeter = round(2*length + 2*width, 1)
+diagonal = round((length**2 + width**2)**0.5, 2)
+
+print("Rectangle Summary: ")
+print (f"Area: {area}")
+print (f"Perimeter: {perimeter}")
+print (f"Diagonal: {diagonal}")
